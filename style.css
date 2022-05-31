@@ -2,5 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
+}
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    /* padding: 20px; */
+    margin: 5px;
+    height: 98vh;
+    padding: 50px;
+    position: relative;
+
+}
+img {
+    width: 50%;
+    height:auto;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 50%;
+    border: 1px solid black;
+    padding: 15px ;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white;
+    transition: .2s ease-in-out;
+}
+p {
+    position: absolute;
+    right: 9px;
+    bottom: 9px;
 }
